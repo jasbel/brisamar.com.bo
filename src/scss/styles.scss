@@ -1,0 +1,43 @@
+/* Dev: JAsbel ----------- */
+
+@import './abstract/variables';
+@import './abstract/colors';
+@import './abstract/functions';
+@import './abstract/mixins';
+@import './abstract/helpers';
+
+/* Core --------------------- */
+
+@import './vendor/bootstrap/bootstrap-grid.scss';
+@import './vendor/aos.scss';
+@import './vendor/normalize.min.scss';
+
+/* Core --------------------- */
+
+@import './core/base';
+@import './core/typography';
+
+/* Components ------------------ */
+
+@import './components/filter';
+@import './components/search';
+@import './components/loader';
+@import './components/button';
+@import './components/form';
+@import './components/modal';
+
+/* Layout --------------------- */
+
+@import './layout/grid';
+@import './layout/hero';
+@import './layout/header';
+@import './layout/footer';
+
+/* Views --------------------- */
+
+@import './pages/main';
+@import './pages/custom';
+
+/* Others --------------------- */
+
+@import './responsive';

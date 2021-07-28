@@ -1,0 +1,23 @@
+/*  Hero
+-----------------*/
+.hero {
+    background-image: url(../images/hero.png);
+    color: var(--color-white);
+    &__image-content {
+        display: flex;
+    }
+    &__image {
+        flex: auto;
+        width: 200px;
+    }
+    &__content {
+    }
+    &__title {
+        @include responsive(34, 40)
+    }
+    &__subtitle {
+        @include responsive(21)
+    }
+    &__description {
+    }
+}
